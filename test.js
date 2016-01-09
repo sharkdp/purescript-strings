@@ -2248,7 +2248,7 @@ var PS = { };
           var fieldset = document.createElement("fieldset");
           fieldset.className = "flarecheck-test";
           var legend = document.createElement("legend");
-          legend.innerText = title;
+          legend.textContent = title;
           fieldset.appendChild(legend);
 
           var docEl = document.createElement("div");
@@ -2292,7 +2292,7 @@ var PS = { };
           pre.className = "flarecheck-output-settext";
           output.appendChild(pre);
         }
-        pre.innerText = str;
+        pre.textContent = str;
       };
     };
   };
